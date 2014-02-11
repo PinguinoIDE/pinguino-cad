@@ -1,0 +1,90 @@
+eeschema (2013-03-08 BZR 3989)-testing  >> Creation date: jeu. 04 avril 2013 14:36:36 CEST
+#Cmp ( order = Reference )
+| C1         100nF       
+| C2         10uF        
+| C3         10uF        
+| C4         22pF        
+| C5         22pF        
+| C6         100nF       
+| C7         100nF       
+| C8         100nF       
+| C9         10pF        
+| C10        100uF       
+| C11        22uF        
+| C12        100nF       
+| C13        10pF        
+| CON1       USB-MINI-B  
+| D1         USERLED     
+| D2         1N4001 (DO-214AC)
+| D3         POWERLED    
+| GS3        GS2         
+| GS4        GS2         
+| GS5        GS2         
+| GS6        GS2         
+| LOGO1      OPEN_HARDWARE_1
+| P2         Ext. Power  
+| P3         HE10-20     
+| P4         Power Supply
+| R1         10          
+| R2         330         
+| R3         470         
+| R4         10K         
+| R5         330         
+| R6         10K         
+| R7         220         
+| SW1        Reset       
+| U1         PIC32MX250F128B
+| U2         AMS1117-3.3 
+| X1         8 MHz       
+| X2         32768Hz     
+| ~1         CIRCLE1     
+| ~2         CIRCLE1     
+| ~3         CIRCLE1     
+| ~4         CIRCLE1     
+#End Cmp
+
+#Cmp ( ordre = Valeur )
+| 10pF         C9        
+| 10pF         C13       
+| 22pF         C4        
+| 100nF        C1        
+| CIRCLE1      ~4        
+| CIRCLE1      ~3        
+| 22pF         C5        
+| CIRCLE1      ~2        
+| CIRCLE1      ~1        
+| 100nF        C6        
+| 100nF        C7        
+| 100nF        C8        
+| 100nF        C12       
+| 10uF         C2        
+| 10uF         C3        
+| 22uF         C11       
+| 100uF        C10       
+| USB-MINI-B   CON1      
+| POWERLED     D3        
+| USERLED      D1        
+| 1N4001 (DO-214AC) D2        
+| GS2          GS3       
+| GS2          GS4       
+| GS2          GS5       
+| GS2          GS6       
+| OPEN_HARDWARE_1 LOGO1     
+| Ext. Power   P2        
+| HE10-20      P3        
+| Power Supply P4        
+| 10           R1        
+| 220          R7        
+| 330          R5        
+| 330          R2        
+| 470          R3        
+| 10K          R4        
+| 10K          R6        
+| Reset        SW1       
+| PIC32MX250F128B U1        
+| AMS1117-3.3  U2        
+| 8 MHz        X1        
+| 32768Hz      X2        
+#End Cmp
+
+#End List

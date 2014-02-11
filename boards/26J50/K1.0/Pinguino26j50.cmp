@@ -1,0 +1,150 @@
+Cmp-Mod V01 Created by CvPcb (2013-03-08 BZR 3989)-testing date = lun. 25 mars 2013 09:41:06 CET
+
+BeginCmp
+TimeStamp = /51500BFF;
+Reference = C1;
+ValeurCmp = 22pf;
+IdModule  = cnp_3mm_disc;
+EndCmp
+
+BeginCmp
+TimeStamp = /51500BD4;
+Reference = C2;
+ValeurCmp = 22pF;
+IdModule  = cnp_3mm_disc;
+EndCmp
+
+BeginCmp
+TimeStamp = /51500BF9;
+Reference = C3;
+ValeurCmp = 10uF;
+IdModule  = C1V5;
+EndCmp
+
+BeginCmp
+TimeStamp = /51500C6A;
+Reference = C4;
+ValeurCmp = 100nF;
+IdModule  = cnp_3mm_disc;
+EndCmp
+
+BeginCmp
+TimeStamp = /51500C8D;
+Reference = C5;
+ValeurCmp = 100nF;
+IdModule  = cnp_3mm_disc;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F967175;
+Reference = D1;
+ValeurCmp = LED;
+IdModule  = led_3mm_red;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E97EBA5/4F93BB97;
+Reference = D2;
+ValeurCmp = BZX85C3V3;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /503E551F;
+Reference = G1;
+ValeurCmp = LOGO;
+IdModule  = LOGO;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E97F2B8/4E97F2EE;
+Reference = JP1;
+ValeurCmp = USB;
+IdModule  = conn_usb_B;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F9A5648;
+Reference = K1;
+ValeurCmp = PWM;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E97EBA5/4F9A5A91;
+Reference = K2;
+ValeurCmp = Power;
+IdModule  = SIL-3;
+EndCmp
+
+BeginCmp
+TimeStamp = /503DCF11;
+Reference = P1;
+ValeurCmp = Analog;
+IdModule  = SIL-6;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F9A53E8;
+Reference = P2;
+ValeurCmp = Digital;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F9A55C9;
+Reference = P3;
+ValeurCmp = UART;
+IdModule  = SIL-2;
+EndCmp
+
+BeginCmp
+TimeStamp = /4F967169;
+Reference = R1;
+ValeurCmp = 390;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E97EBA5/4E97ECCA;
+Reference = R2;
+ValeurCmp = 5.6;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E97E908/4E97E9E6;
+Reference = R4;
+ValeurCmp = 10K;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E97E908/4E97E9F9;
+Reference = R5;
+ValeurCmp = 390R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E97E908/4E97E9F1;
+Reference = SW1;
+ValeurCmp = Reset;
+IdModule  = SW_PUSH_SMALL;
+EndCmp
+
+BeginCmp
+TimeStamp = /4E96DADA;
+Reference = U1;
+ValeurCmp = PIC18F26J50;
+IdModule  = DIP-28__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /4FA3C0F8;
+Reference = X1;
+ValeurCmp = 8MHz;
+IdModule  = crystal_hc-49u;
+EndCmp
+
+EndListe

@@ -1,0 +1,722 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:special
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:logo
+LIBS:graphic
+LIBS:74xgxx
+LIBS:ac-dc
+LIBS:brooktre
+LIBS:cmos_ieee
+LIBS:dc-dc
+LIBS:elec-unifil
+LIBS:ftdi
+LIBS:gennum
+LIBS:hc11
+LIBS:microchip1
+LIBS:microchip_pic10mcu
+LIBS:microchip_pic12mcu
+LIBS:microchip_pic16mcu
+LIBS:msp430
+LIBS:nxp_armmcu
+LIBS:powerint
+LIBS:pspice
+LIBS:references
+LIBS:relays
+LIBS:sensors
+LIBS:stm8
+LIBS:stm32
+LIBS:supertex
+LIBS:transf
+LIBS:ttl_ieee
+LIBS:video
+LIBS:w_analog
+LIBS:w_connectors
+LIBS:w_device
+LIBS:w_logic
+LIBS:w_memory
+LIBS:w_microcontrollers
+LIBS:w_opto
+LIBS:w_relay
+LIBS:w_rtx
+LIBS:w_transistor
+LIBS:w_vacuum
+LIBS:pinguino
+LIBS:Pinguino47j53A-cache
+EELAYER 24 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 2
+Title ""
+Date "7 jul 2013"
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L PIC18F47J53-TQFP44 U1
+U 1 1 50EAAA4F
+P 5900 3700
+F 0 "U1" H 5900 5650 60  0000 C CNN
+F 1 "PIC18F47J53-TQFP44" H 5900 1750 60  0000 C CNN
+F 2 "" H 5900 3700 60  0001 C CNN
+F 3 "" H 5900 3700 60  0001 C CNN
+	1    5900 3700
+	1    0    0    -1  
+$EndComp
+Text GLabel 7750 4000 2    60   Input ~ 0
+USB_D+
+Text GLabel 7750 3900 2    60   Input ~ 0
+USB_D-
+$Comp
+L R R3
+U 1 1 50ED3DC1
+P 9700 3800
+F 0 "R3" V 9780 3800 50  0000 C CNN
+F 1 "470" V 9700 3800 50  0000 C CNN
+F 2 "" H 9700 3800 60  0001 C CNN
+F 3 "" H 9700 3800 60  0001 C CNN
+	1    9700 3800
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D1
+U 1 1 50ED3DD0
+P 10400 3800
+F 0 "D1" H 10400 3900 50  0000 C CNN
+F 1 "Yellow LED" H 10400 3700 50  0000 C CNN
+F 2 "" H 10400 3800 60  0001 C CNN
+F 3 "" H 10400 3800 60  0001 C CNN
+	1    10400 3800
+	1    0    0    -1  
+$EndComp
+Text GLabel 4000 1600 0    60   Input ~ 0
+VDD
+$Comp
+L R R2
+U 1 1 50ED4050
+P 2000 5400
+F 0 "R2" V 2080 5400 50  0000 C CNN
+F 1 "470" V 2000 5400 50  0000 C CNN
+F 2 "" H 2000 5400 60  0001 C CNN
+F 3 "" H 2000 5400 60  0001 C CNN
+	1    2000 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R1
+U 1 1 50ED405C
+P 1550 5750
+F 0 "R1" V 1630 5750 50  0000 C CNN
+F 1 "10K" V 1550 5750 50  0000 C CNN
+F 2 "" H 1550 5750 60  0001 C CNN
+F 3 "" H 1550 5750 60  0001 C CNN
+	1    1550 5750
+	0    -1   -1   0   
+$EndComp
+Text GLabel 1100 5750 0    60   Input ~ 0
+VDD
+$Comp
+L SW_PUSHBUTTON SW1
+U 1 1 50ED40A8
+P 2450 5750
+F 0 "SW1" H 2450 5900 60  0000 C CNN
+F 1 "RESET" H 2450 5650 60  0000 C CNN
+F 2 "" H 2450 5750 60  0001 C CNN
+F 3 "" H 2450 5750 60  0001 C CNN
+	1    2450 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C1
+U 1 1 512CD400
+P 4450 1800
+F 0 "C1" H 4670 1900 60  0000 C CNN
+F 1 "100nF" H 4610 1700 60  0000 C CNN
+F 2 "~" H 4450 1800 60  0000 C CNN
+F 3 "~" H 4450 1800 60  0000 C CNN
+	1    4450 1800
+	-1   0    0    1   
+$EndComp
+$Comp
+L C C2
+U 1 1 512CD406
+P 4450 2400
+F 0 "C2" H 4670 2500 60  0000 C CNN
+F 1 "100nF" H 4610 2300 60  0000 C CNN
+F 2 "~" H 4450 2400 60  0000 C CNN
+F 3 "~" H 4450 2400 60  0000 C CNN
+	1    4450 2400
+	-1   0    0    1   
+$EndComp
+$Comp
+L VSS #PWR01
+U 1 1 5138BA8C
+P 4500 6550
+F 0 "#PWR01" H 4500 6550 30  0001 C CNN
+F 1 "VSS" H 4500 6480 30  0000 C CNN
+F 2 "" H 4500 6550 60  0000 C CNN
+F 3 "" H 4500 6550 60  0000 C CNN
+	1    4500 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L VSS #PWR02
+U 1 1 5138BE91
+P 3300 3850
+F 0 "#PWR02" H 3300 3850 30  0001 C CNN
+F 1 "VSS" H 3300 3780 30  0000 C CNN
+F 2 "" H 3300 3850 60  0000 C CNN
+F 3 "" H 3300 3850 60  0000 C CNN
+	1    3300 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L VSS #PWR03
+U 1 1 5138BF68
+P 10750 4000
+F 0 "#PWR03" H 10750 4000 30  0001 C CNN
+F 1 "VSS" H 10750 3930 30  0000 C CNN
+F 2 "" H 10750 4000 60  0000 C CNN
+F 3 "" H 10750 4000 60  0000 C CNN
+	1    10750 4000
+	1    0    0    -1  
+$EndComp
+Text GLabel 4000 5200 1    60   Input ~ 0
+VDD
+Text Label 7100 5300 0    60   ~ 0
+AN5
+Text Label 7100 5400 0    60   ~ 0
+AN6
+Text Label 7100 5500 0    60   ~ 0
+AN7
+Text Label 7100 2300 0    60   ~ 0
+AN4
+Text Label 7100 2200 0    60   ~ 0
+AN3
+Text Label 7100 2100 0    60   ~ 0
+AN2
+Text Label 7100 2000 0    60   ~ 0
+AN1
+Text Label 7100 1900 0    60   ~ 0
+AN0
+Text Label 9150 2300 2    60   ~ 0
+AN0
+Text Label 9150 2400 2    60   ~ 0
+AN1
+Text Label 9150 2500 2    60   ~ 0
+AN2
+Text Label 9150 2600 2    60   ~ 0
+AN3
+Text Label 9150 2700 2    60   ~ 0
+AN4
+Text Label 9150 2800 2    60   ~ 0
+AN5
+Text Label 9150 2900 2    60   ~ 0
+AN6
+Text Label 9150 3000 2    60   ~ 0
+AN7
+Text Label 9150 1500 2    60   ~ 0
+RB0
+Text Label 9150 1600 2    60   ~ 0
+RB1
+Text Label 9150 1700 2    60   ~ 0
+RB2
+Text Label 9150 1800 2    60   ~ 0
+RB3
+Text Label 9150 1900 2    60   ~ 0
+RB4
+Text Label 9150 2000 2    60   ~ 0
+RB5
+Text Label 9150 2100 2    60   ~ 0
+RB6
+Text Label 9150 2200 2    60   ~ 0
+RB7
+Text Label 7100 2700 0    60   ~ 0
+RB0
+Text Label 7100 2800 0    60   ~ 0
+RB1
+Text Label 7100 2900 0    60   ~ 0
+RB2
+Text Label 7100 3000 0    60   ~ 0
+RB3
+Text Label 7100 3100 0    60   ~ 0
+RB4
+Text Label 7100 3300 0    60   ~ 0
+RB6
+Text Label 7100 3400 0    60   ~ 0
+RB7
+Text Label 7100 4400 0    60   ~ 0
+RD0
+Text Label 7100 4500 0    60   ~ 0
+RD1
+Text Label 7100 4600 0    60   ~ 0
+RD2
+Text Label 7100 4700 0    60   ~ 0
+RD3
+Text Label 7100 4800 0    60   ~ 0
+RD4
+Text Label 7100 4900 0    60   ~ 0
+RD5
+Text Label 7100 5000 0    60   ~ 0
+RD6
+NoConn ~ 5350 1500
+NoConn ~ 5450 1500
+NoConn ~ 5550 1500
+NoConn ~ 5650 1500
+Text Label 9950 1500 0    60   ~ 0
+RC2
+Text Label 8850 3800 0    60   ~ 0
+RC2
+Text Label 9950 1900 0    60   ~ 0
+RC6
+Text Label 9950 2000 0    60   ~ 0
+RC7
+Text Label 7100 3800 0    60   ~ 0
+RC2
+Text Label 7100 4100 0    60   ~ 0
+RC6
+Text Label 7100 4200 0    60   ~ 0
+RC7
+Text Label 7100 5100 0    60   ~ 0
+RD7
+$Comp
+L CAPAPOL C6
+U 1 1 5170EC61
+P 4500 6100
+F 0 "C6" V 4450 5950 40  0000 L CNN
+F 1 "10uF/6.3V Tantal. 0805/P" V 4350 5700 40  0000 L CNN
+F 2 "~" H 4600 5950 30  0000 C CNN
+F 3 "~" H 4500 6100 300 0000 C CNN
+	1    4500 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C5
+U 1 1 5170EEBE
+P 4000 6100
+F 0 "C5" H 4050 6200 60  0000 C CNN
+F 1 "100nF" H 4000 6000 60  0000 C CNN
+F 2 "~" H 4000 6100 60  0000 C CNN
+F 3 "~" H 4000 6100 60  0000 C CNN
+	1    4000 6100
+	1    0    0    -1  
+$EndComp
+Text Notes 3950 7000 0    60   ~ 0
+VUSB must be supplied with a voltage source\nbetween 3.0V and 3.6V. The best electrical signal\nquality is obtained when a 3.3V supply is used and\nlocally bypassed with a high quality ceramic capacitor\n(ex: 0.1 uF). The capacitor should be placed as close\nas possible to the VUSB and VSS pins.\n
+Text Label 7100 3900 0    60   ~ 0
+RC4
+Text Label 7100 4000 0    60   ~ 0
+RC5
+Text Label 4700 3800 2    60   ~ 0
+RC0
+Text Label 4700 3900 2    60   ~ 0
+RC1
+Text Label 9950 1400 0    60   ~ 0
+RC1
+Text Label 9950 1300 0    60   ~ 0
+RC0
+Text Label 9950 1700 0    60   ~ 0
+RC4
+Text Label 9950 1800 0    60   ~ 0
+RC5
+Text Notes 4700 6100 0    60   ~ 12
+Low-ESR (< 5 Ohm) capacitor required !
+Text Label 7100 3200 0    60   ~ 0
+RB5
+Text Label 4700 2700 2    60   ~ 0
+RA6
+Text Label 4700 2800 2    60   ~ 0
+RA7
+NoConn ~ 9950 1600
+$Comp
+L C C4
+U 1 1 51CD47C0
+P 4400 3250
+F 0 "C4" H 4620 3350 60  0000 C CNN
+F 1 "22pF" H 4560 3150 60  0000 C CNN
+F 2 "~" H 4400 3250 60  0000 C CNN
+F 3 "~" H 4400 3250 60  0000 C CNN
+	1    4400 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C3
+U 1 1 51CD47C6
+P 3800 3250
+F 0 "C3" H 4020 3350 60  0000 C CNN
+F 1 "22pF" H 3960 3150 60  0000 C CNN
+F 2 "~" H 3800 3250 60  0000 C CNN
+F 3 "~" H 3800 3250 60  0000 C CNN
+	1    3800 3250
+	1    0    0    -1  
+$EndComp
+$Comp
+L CRYSTAL X1
+U 1 1 51CD47CE
+P 4100 2900
+F 0 "X1" H 4100 3050 60  0000 C CNN
+F 1 "8MHz" H 4100 2750 60  0000 C CNN
+F 2 "" H 4100 2900 60  0000 C CNN
+F 3 "" H 4100 2900 60  0000 C CNN
+	1    4100 2900
+	1    0    0    -1  
+$EndComp
+Text Notes 550  1150 0    500  ~ 100
+PINGUINO 47J53.A1
+Text Label 9950 2100 0    60   ~ 0
+RD0
+Text Label 9950 2200 0    60   ~ 0
+RD1
+Text Label 9950 2300 0    60   ~ 0
+RD2
+Text Label 9950 2400 0    60   ~ 0
+RD3
+Text Label 9950 2500 0    60   ~ 0
+RD4
+Text Label 9950 2600 0    60   ~ 0
+RD5
+Text Label 9950 2700 0    60   ~ 0
+RD6
+Text Label 9950 2800 0    60   ~ 0
+RD7
+Text GLabel 9150 1300 0    60   BiDi ~ 0
+VIN
+$Comp
+L VSS #PWR04
+U 1 1 51CE9524
+P 10400 3150
+F 0 "#PWR04" H 10400 3150 30  0001 C CNN
+F 1 "VSS" H 10400 3080 30  0000 C CNN
+F 2 "" H 10400 3150 60  0000 C CNN
+F 3 "" H 10400 3150 60  0000 C CNN
+	1    10400 3150
+	1    0    0    -1  
+$EndComp
+Text GLabel 9950 3000 2    60   Input ~ 0
+VBAT
+$Comp
+L VSS #PWR05
+U 1 1 51CFC252
+P 8750 1550
+F 0 "#PWR05" H 8750 1550 30  0001 C CNN
+F 1 "VSS" H 8750 1480 30  0000 C CNN
+F 2 "" H 8750 1550 60  0000 C CNN
+F 3 "" H 8750 1550 60  0000 C CNN
+	1    8750 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L CONN_6 P1
+U 1 1 50ED449D
+P 9100 4650
+F 0 "P1" V 9050 4650 60  0000 C CNN
+F 1 "ICSP" V 9150 4650 60  0000 C CNN
+F 2 "" H 9100 4650 60  0001 C CNN
+F 3 "" H 9100 4650 60  0001 C CNN
+	1    9100 4650
+	-1   0    0    -1  
+$EndComp
+Text GLabel 10600 4500 2    60   Input ~ 0
+VDD
+NoConn ~ 9450 4900
+NoConn ~ 11550 2950
+$Comp
+L VSS #PWR06
+U 1 1 513B3643
+P 9850 5250
+F 0 "#PWR06" H 9850 5250 30  0001 C CNN
+F 1 "VSS" H 9850 5180 30  0000 C CNN
+F 2 "" H 9850 5250 60  0000 C CNN
+F 3 "" H 9850 5250 60  0000 C CNN
+	1    9850 5250
+	1    0    0    -1  
+$EndComp
+Text Label 4700 4700 2    60   ~ 0
+RST
+$Comp
+L VSS #PWR07
+U 1 1 51D189E9
+P 2950 5750
+F 0 "#PWR07" H 2950 5750 30  0001 C CNN
+F 1 "VSS" H 2950 5680 30  0000 C CNN
+F 2 "" H 2950 5750 60  0000 C CNN
+F 3 "" H 2950 5750 60  0000 C CNN
+	1    2950 5750
+	0    -1   -1   0   
+$EndComp
+Text Label 9450 4400 0    60   ~ 0
+RST
+Text Label 7750 3300 0    60   ~ 0
+PGC
+Text Label 7750 3400 0    60   ~ 0
+PGD
+Text Label 9450 4800 0    60   ~ 0
+PGC
+Text Label 9450 4700 0    60   ~ 0
+PGD
+Text Label 2000 4900 1    60   ~ 0
+RST
+$Sheet
+S 650  6550 1100 1050
+U 513AE727
+F0 "Power Supply" 50
+F1 "power.sch" 50
+$EndSheet
+$Comp
+L VSS #PWR08
+U 1 1 51D1916B
+P 4000 6550
+F 0 "#PWR08" H 4000 6550 30  0001 C CNN
+F 1 "VSS" H 4000 6480 30  0000 C CNN
+F 2 "" H 4000 6550 60  0000 C CNN
+F 3 "" H 4000 6550 60  0000 C CNN
+	1    4000 6550
+	1    0    0    -1  
+$EndComp
+Text Notes 10200 3650 0    60   ~ 0
+User Led
+Text Notes 1850 5500 2    118  ~ 24
+Reset
+$Comp
+L CRYSTAL X2
+U 1 1 51D2908D
+P 4100 4000
+F 0 "X2" H 4100 4150 60  0000 C CNN
+F 1 "32768Hz" H 4100 3850 60  0000 C CNN
+F 2 "" H 4100 4000 60  0000 C CNN
+F 3 "" H 4100 4000 60  0000 C CNN
+	1    4100 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C12
+U 1 1 51D2909D
+P 3800 4350
+F 0 "C12" H 3700 4450 60  0000 C CNN
+F 1 "10pF" H 3950 4250 60  0000 C CNN
+F 2 "~" H 3800 4350 60  0000 C CNN
+F 3 "~" H 3800 4350 60  0000 C CNN
+	1    3800 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L C C13
+U 1 1 51D290A3
+P 4400 4350
+F 0 "C13" H 4500 4450 60  0000 C CNN
+F 1 "10pF" H 4250 4250 60  0000 C CNN
+F 2 "~" H 4400 4350 60  0000 C CNN
+F 3 "~" H 4400 4350 60  0000 C CNN
+	1    4400 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L VSS #PWR09
+U 1 1 51D290A9
+P 3300 5000
+F 0 "#PWR09" H 3300 5000 30  0001 C CNN
+F 1 "VSS" H 3300 4930 30  0000 C CNN
+F 2 "" H 3300 5000 60  0000 C CNN
+F 3 "" H 3300 5000 60  0000 C CNN
+	1    3300 5000
+	1    0    0    -1  
+$EndComp
+Text Notes 7000 6600 0    31   ~ 0
+THE DESIGN IS PROVIDED “AS IS” WITH ALL FAULTS, AND THE ENTIRE RISK AS TO ITS FUNCTION AND IMPLEMENTATION IS WITH YOU.\nYOU ACKNOWLEDGE AND AGREE THAT YOU HAVE NOT RELIED ON ANY ORAL OR WRITTEN INFORMATION OR ADVICE, WHETHER GIVEN\nBY SEAICELAB, OR ITS AGENTS OR EMPLOYEES. SEAICELAB MAKES NO OTHER WARRANTIES, WHETHER EXPRESS, IMPLIED, OR STATUTORY,\nREGARDING THE DESIGN, INCLUDING ANY WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE,\nTITLE, AND NONINFRINGEMENT OF THIRD-PARTY RIGHTS.\n\nIN NO EVENT WILL SEAICELAB BE LIABLE FOR ANY CONSEQUENTIAL, INDIRECT, EXEMPLARY, SPECIAL, OR INCIDENTAL DAMAGES, INCLUDING\nANY LOST DATA AND LOST PROFITS, ARISING FROM OR RELATING TO YOUR USE OF THE DESIGN, EVEN IF YOU HAVE BEEN ADVISED OF\nTHE POSSIBILITY OF SUCH DAMAGES. THE TOTAL CUMULATIVE LIABILITY OF SEAICELAB IN CONNECTION WITH YOUR USE OF THE DESIGN,\nWHETHER IN CONTRACT OR TORT OR OTHERWISE, WILL IN NO EVENT EXCEED THE AMOUNT OF FEES PAID BY YOU TO SEAICELAB\nHERE UNDER FOR USE OF THE DESIGN. YOU ACKNOWLEDGE THAT THE FEES, IF ANY, REFLECT THE ALLOCATION OF RISK SET FORTH\nIN THIS AGREEMENT AND THAT SEAICELAB WOULD NOT MAKE AVAILABLE THE DESIGN TO YOU WITHOUT THESE LIMITATIONS OF LIABILITY.
+Text GLabel 4000 2200 0    60   Input ~ 0
+VDD
+$Comp
+L VSS #PWR010
+U 1 1 51D9AA34
+P 3300 2150
+F 0 "#PWR010" H 3300 2150 30  0001 C CNN
+F 1 "VSS" H 3300 2080 30  0000 C CNN
+F 2 "" H 3300 2150 60  0000 C CNN
+F 3 "" H 3300 2150 60  0000 C CNN
+	1    3300 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L VSS #PWR011
+U 1 1 51D9AA95
+P 3300 2750
+F 0 "#PWR011" H 3300 2750 30  0001 C CNN
+F 1 "VSS" H 3300 2680 30  0000 C CNN
+F 2 "" H 3300 2750 60  0000 C CNN
+F 3 "" H 3300 2750 60  0000 C CNN
+	1    3300 2750
+	1    0    0    -1  
+$EndComp
+Text Notes 10300 4350 2    118  ~ 24
+ICSP
+Text Notes 9650 3600 2    118  ~ 24
+User Led
+Text Notes 10500 850  2    118  ~ 24
+Pinguino Header
+Wire Wire Line
+	3300 2000 4700 2000
+Connection ~ 4450 2000
+Wire Wire Line
+	4700 2600 4700 2300
+Wire Wire Line
+	4700 1600 4700 1900
+Wire Wire Line
+	3300 3700 3300 3850
+Wire Wire Line
+	9950 3800 10200 3800
+Wire Wire Line
+	10600 3800 10750 3800
+Wire Wire Line
+	10750 3800 10750 4000
+Wire Wire Line
+	2000 5150 2000 4900
+Wire Wire Line
+	1800 5750 2200 5750
+Wire Wire Line
+	2000 5750 2000 5650
+Connection ~ 2000 5750
+Wire Wire Line
+	7750 3300 7100 3300
+Wire Wire Line
+	7100 3400 7750 3400
+Wire Wire Line
+	8850 3800 9450 3800
+Wire Wire Line
+	7750 3900 7100 3900
+Wire Wire Line
+	7750 4000 7100 4000
+Wire Wire Line
+	4000 1600 4700 1600
+Connection ~ 4450 1600
+Wire Wire Line
+	4000 2200 4700 2200
+Connection ~ 4450 2200
+Wire Wire Line
+	3300 2600 4700 2600
+Connection ~ 4450 2600
+Wire Wire Line
+	4000 6300 4000 6550
+Connection ~ 4000 5400
+Wire Wire Line
+	4700 2700 3800 2700
+Wire Wire Line
+	3800 2700 3800 3050
+Connection ~ 3800 2900
+Wire Wire Line
+	4700 2800 4400 2800
+Wire Wire Line
+	4400 2800 4400 3050
+Connection ~ 4400 2900
+Wire Wire Line
+	3800 3450 3800 3700
+Wire Wire Line
+	3300 3700 4400 3700
+Wire Wire Line
+	4400 3700 4400 3450
+Wire Wire Line
+	9850 4600 9850 5250
+Wire Wire Line
+	9450 4600 9850 4600
+Wire Wire Line
+	9450 4500 10600 4500
+Wire Wire Line
+	2700 5750 2950 5750
+Wire Wire Line
+	1100 5750 1300 5750
+Wire Wire Line
+	4000 5200 4000 5900
+Wire Wire Line
+	4000 5400 4700 5400
+Wire Wire Line
+	4500 5500 4500 5900
+Wire Wire Line
+	4700 5500 4500 5500
+Wire Wire Line
+	4500 6300 4500 6550
+Wire Wire Line
+	4700 3800 3800 3800
+Wire Wire Line
+	3800 3800 3800 4150
+Connection ~ 3800 4000
+Wire Wire Line
+	3800 4550 3800 4850
+Wire Wire Line
+	3300 4850 4400 4850
+Wire Wire Line
+	4400 4850 4400 4550
+Wire Wire Line
+	4400 3900 4400 4150
+Connection ~ 4400 4000
+Connection ~ 3800 3700
+Wire Wire Line
+	4700 3900 4400 3900
+Wire Wire Line
+	3300 2000 3300 2150
+Wire Wire Line
+	3300 2600 3300 2750
+Connection ~ 3800 4850
+Wire Wire Line
+	3300 4850 3300 5000
+$Comp
+L HEADER_18 J1
+U 1 1 51DC4D11
+P 9250 2150
+F 0 "J1" H 9250 3100 60  0000 C CNN
+F 1 "HEADER_18" H 9250 1200 60  0000 C CNN
+F 2 "" H 9250 2150 60  0000 C CNN
+F 3 "" H 9250 2150 60  0000 C CNN
+	1    9250 2150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9150 1400 8750 1400
+Wire Wire Line
+	8750 1400 8750 1550
+$Comp
+L HEADER_18 J2
+U 1 1 51DC4D74
+P 9850 2150
+F 0 "J2" H 9850 3100 60  0000 C CNN
+F 1 "HEADER_18" H 9850 1200 60  0000 C CNN
+F 2 "" H 9850 2150 60  0000 C CNN
+F 3 "" H 9850 2150 60  0000 C CNN
+	1    9850 2150
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 2900 10400 2900
+Wire Wire Line
+	10400 2900 10400 3150
+$EndSCHEMATC

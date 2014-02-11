@@ -1,0 +1,49 @@
+eeschema (2013-05-13 BZR 4149)-testing  >> Creation date: mer. 15 mai 2013 10:28:11 CEST
+#Cmp ( ordre = Référence )
+| C1         100nF       
+| C2         10uF        
+| C3         100nF       
+| C4         100nF       
+| C5         100uF       
+| C6         22pF        
+| C7         22pF        
+| C8         10pF        
+| C9         10pF        
+| C10        100nF       
+| C11        22uF        
+| CON1       USB-MINI-B  
+| D1         Yellow LED  
+| D2         1N5819      
+| D3         Red LED     
+| D4         1N5819      
+| J1         Ext. Sup.   
+| LOGO1      OPEN_HARDWARE_1
+| P1         Analog      
+| P2         Digital     
+| P3         Parallel    
+| P4         Bat.        
+| P5         ICSP        
+| R1         10K         
+| R2         470         
+| R3         330         
+| R4         20K         
+| R5         33K         
+| R8         330         
+| RV1        10K         
+| SW1        RESET       
+| U1         PIC18F47J53-TQFP44
+| U3         AMS1117-3.3V (SOT-223)
+| X1         8MHz        
+| X2         32768Hz     
+| ~1         CIRCLE1     
+| ~2         CIRCLE1     
+| ~3         CIRCLE1     
+| ~4         CIRCLE1     
+| ~5         DIAMOND1    
+| ~6         DIAMOND1    
+| ~7         DIAMOND1    
+| ~8         DIAMOND1    
+| ~9         DIAMOND1    
+#End Cmp
+
+#End List
