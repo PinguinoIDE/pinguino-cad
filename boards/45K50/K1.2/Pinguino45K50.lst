@@ -1,0 +1,49 @@
+eeschema (2012-jan-04)-stable  >> Creation date: mer. 29 août 2012 10:20:23 CEST
+
+#Cmp ( ordre = Référence )
+| C1         22pF        
+| C2         22pF        
+| C3         10uF/6.3v/TANT
+| C4         100nF       
+| C5         100nF       
+| D1         LED         
+| D2         BZX85C3V3   
+| JP1        USB         
+| K1         PWM         
+| K2         Power       
+| P1         Analog      
+| P2         Digital     
+| P3         UART        
+| R1         390         
+| R2         5.6         
+| R4         10K         
+| R5         390R        
+| SW1        Reset       
+| U1         PIC18F26J50 
+| X1         8MHz        
+#End Cmp
+
+#Cmp ( ordre = Valeur )
+| 100nF        C4        
+| 100nF        C5        
+| 10K          R4        
+| 10uF/6.3v/TANT C3        
+| 22pF         C1        
+| 22pF         C2        
+| 390          R1        
+| 390R         R5        
+| 5.6          R2        
+| 8MHz         X1        
+| Analog       P1        
+| BZX85C3V3    D2        
+| Digital      P2        
+| LED          D1        
+| PIC18F26J50  U1        
+| Power        K2        
+| PWM          K1        
+| Reset        SW1       
+| UART         P3        
+| USB          JP1       
+#End Cmp
+
+#End List

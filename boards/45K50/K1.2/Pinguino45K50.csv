@@ -1,0 +1,17 @@
+"Id";"Référence";"Boitier";"Quantité";"Désignation";"Fournisseur et réf.";
+1;"P6";"pin_strip_6";1;"PORT_A";;;
+2;"C1,C2";"cnp_3mm_disc";2;"22pF";;;
+3;"C3";"CP_5x11mm";1;"10uF";;;
+4;"C4";"cnp_7x6mm";1;"220nF";;;
+5;"C5";"cnp_3mm_disc";1;"100nF";;;
+6;"J1";"conn_usb_B";1;"USB-B";;;
+7;"K1";"pin_strip_3";1;"PWM";;;
+8;"P3";"pin_strip_2";1;"UART";;;
+9;"P4";"pin_strip_8";1;"PORT_B";;;
+10;"P5";"pin_strip_2";1;"+/-";;;
+11;"R1";"RC03";1;"10K";;;
+12;"R2";"RC03";1;"470";;;
+13;"SW1";"PCB_PUSH";1;"But";;;
+14;"U1";"dil_28-300_socket";1;"PIC18F2550";;;
+15;"X1";"crystal_hc-49u";1;"20MHz";;;
+16;"D1";"led_3mm_red";1;"Led";;;

@@ -1,0 +1,999 @@
+## Module report - date jeu. 17 mars 2011 10:32:41 CET
+## Created by PcbNew version pcbnew (2010-03-14)-final
+## Unit = inches, Angle = deg.
+##
+
+$BeginDESCRIPTION
+
+$BOARD
+unit INCH
+upper_left_corner  5.092400  3.117400
+lower_right_corner  7.786000  4.132600
+$EndBOARD
+
+$MODULE "P6"
+reference "P6"
+value "PORT_A"
+footprint "pin_strip_6"
+attribut none
+position  6.100000  3.900000
+orientation  0.00
+layer component
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_6.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$PAD "1"
+position -0.250000  0.000000
+size  0.086600  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "2"
+position -0.150000  0.000000
+size  0.086600  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "3"
+position -0.050000  0.000000
+size  0.086600  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "4"
+position  0.050000  0.000000
+size  0.086600  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "5"
+position  0.150000  0.000000
+size  0.086600  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "6"
+position  0.250000  0.000000
+size  0.086600  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$EndMODULE  P6
+
+$MODULE "C1"
+reference "C1"
+value "22pF"
+footprint "cnp_3mm_disc"
+attribut none
+position  6.550000  3.950000
+orientation  270.00
+layer component
+$SHAPE3D
+Na "walter/capacitors/cnp_3mm_disc.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$PAD "1"
+position -0.050000  0.000000
+size  0.086600  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "2"
+position  0.050000  0.000000
+size  0.086600  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$EndMODULE  C1
+
+$MODULE "C2"
+reference "C2"
+value "22pF"
+footprint "cnp_3mm_disc"
+attribut none
+position  6.650000  3.950000
+orientation  270.00
+layer component
+$SHAPE3D
+Na "walter/capacitors/cnp_3mm_disc.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$PAD "1"
+position -0.050000  0.000000
+size  0.086600  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "2"
+position  0.050000  0.000000
+size  0.086600  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$EndMODULE  C2
+
+$MODULE "C3"
+reference "C3"
+value "10uF"
+footprint "CP_5x11mm"
+attribut none
+position  5.650000  3.900000
+orientation  180.00
+layer component
+$SHAPE3D
+Na "walter/capacitors/cp_5x11mm.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$PAD "1"
+position  0.000000  0.050000
+size  0.078700  0.078700
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  all
+$EndPAD
+$PAD "2"
+position  0.000000 -0.050000
+size  0.078700  0.078700
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$EndMODULE  C3
+
+$MODULE "C4"
+reference "C4"
+value "220nF"
+footprint "cnp_7x6mm"
+attribut none
+position  7.175000  4.000000
+orientation  0.00
+layer component
+$SHAPE3D
+Na "walter/capacitors/cnp_7x6mm.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$PAD "1"
+position -0.100000  0.000000
+size  0.078700  0.078700
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$PAD "2"
+position  0.100000  0.000000
+size  0.078700  0.078700
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$EndMODULE  C4
+
+$MODULE "C5"
+reference "C5"
+value "100nF"
+footprint "cnp_3mm_disc"
+attribut none
+position  6.600000  3.300000
+orientation  0.00
+layer component
+$SHAPE3D
+Na "walter/capacitors/cnp_3mm_disc.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$PAD "1"
+position -0.050000  0.000000
+size  0.086600  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "2"
+position  0.050000  0.000000
+size  0.086600  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$EndMODULE  C5
+
+$MODULE "J1"
+reference "J1"
+value "USB-B"
+footprint "conn_usb_B"
+attribut none
+position  7.475000  3.625000
+orientation  90.00
+layer component
+$SHAPE3D
+Na "walter/conn_pc/usb_B.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$PAD "3"
+position -0.049000 -0.197000
+size  0.060000  0.086600
+drill  0.039400
+shape_offset  0.000000  0.000000
+orientation  90.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "4"
+position  0.049000 -0.197000
+size  0.060000  0.086600
+drill  0.039400
+shape_offset  0.000000  0.000000
+orientation  90.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "1"
+position  0.049000 -0.276000
+size  0.060000  0.086600
+drill  0.039400
+shape_offset  0.000000  0.000000
+orientation  90.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "2"
+position -0.049000 -0.276000
+size  0.060000  0.086600
+drill  0.039400
+shape_offset  0.000000  0.000000
+orientation  90.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "5"
+position -0.237000 -0.090000
+size  0.137800  0.137800
+drill  0.080000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$PAD "6"
+position  0.237000 -0.090000
+size  0.137800  0.137800
+drill  0.080000
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$EndMODULE  J1
+
+$MODULE "K1"
+reference "K1"
+value "PWM"
+footprint "pin_strip_3"
+attribut none
+position  6.850000  3.900000
+orientation  0.00
+layer component
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_3.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$PAD "1"
+position -0.100000  0.000000
+size  0.086600  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "2"
+position  0.000000  0.000000
+size  0.086600  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "3"
+position  0.100000  0.000000
+size  0.086600  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$EndMODULE  K1
+
+$MODULE "P3"
+reference "P3"
+value "UART"
+footprint "pin_strip_2"
+attribut none
+position  6.800000  3.300000
+orientation  180.00
+layer component
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_2.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$PAD "1"
+position -0.050000  0.000000
+size  0.086600  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "2"
+position  0.050000  0.000000
+size  0.086600  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$EndMODULE  P3
+
+$MODULE "P4"
+reference "P4"
+value "PORT_B"
+footprint "pin_strip_8"
+attribut none
+position  6.100000  3.300000
+orientation  180.00
+layer component
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_8.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$PAD "1"
+position -0.350000  0.000000
+size  0.086600  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "2"
+position -0.250000  0.000000
+size  0.086600  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "3"
+position -0.150000  0.000000
+size  0.086600  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "4"
+position -0.050000  0.000000
+size  0.086600  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "5"
+position  0.050000  0.000000
+size  0.086600  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "6"
+position  0.150000  0.000000
+size  0.086600  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "7"
+position  0.250000  0.000000
+size  0.086600  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "8"
+position  0.350000  0.000000
+size  0.086600  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$EndMODULE  P4
+
+$MODULE "P5"
+reference "P5"
+value "+/-"
+footprint "pin_strip_2"
+attribut none
+position  7.000000  3.300000
+orientation  180.00
+layer component
+$SHAPE3D
+Na "walter/pin_strip/pin_strip_2.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$PAD "1"
+position -0.050000  0.000000
+size  0.086600  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "2"
+position  0.050000  0.000000
+size  0.086600  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$EndMODULE  P5
+
+$MODULE "R1"
+reference "R1"
+value "10K"
+footprint "RC03"
+attribut none
+position  5.425000  3.600000
+orientation  180.00
+layer component
+$SHAPE3D
+Na "walter/pth_resistors/rc03.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$PAD "1"
+position -0.150000  0.000000
+size  0.078700  0.078700
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$PAD "2"
+position  0.150000  0.000000
+size  0.078700  0.078700
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$EndMODULE  R1
+
+$MODULE "R2"
+reference "R2"
+value "470"
+footprint "RC03"
+attribut none
+position  5.425000  3.725000
+orientation  180.00
+layer component
+$SHAPE3D
+Na "walter/pth_resistors/rc03.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$PAD "1"
+position -0.150000  0.000000
+size  0.078700  0.078700
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$PAD "2"
+position  0.150000  0.000000
+size  0.078700  0.078700
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$EndMODULE  R2
+
+$MODULE "SW1"
+reference "SW1"
+value "But"
+footprint "PCB_PUSH"
+attribut none
+position  5.425000  3.375000
+orientation  270.00
+layer component
+$SHAPE3D
+Na "walter/misc_comp/pcb_push.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$PAD "1"
+position -0.088600 -0.128000
+size  0.098400  0.098400
+drill  0.039400
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$PAD "2"
+position  0.088600  0.128000
+size  0.098400  0.098400
+drill  0.039400
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$PAD "4"
+position  0.088600 -0.128000
+size  0.098400  0.098400
+drill  0.039400
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$PAD "3"
+position -0.088600  0.128000
+size  0.098400  0.098400
+drill  0.039400
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$EndMODULE  SW1
+
+$MODULE "U1"
+reference "U1"
+value "PIC18F2550"
+footprint "dil_28-300_socket"
+attribut none
+position  6.400000  3.600000
+orientation  0.00
+layer component
+$SHAPE3D
+Na "walter/pth_circuits/dil_28-300_socket.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$PAD "1"
+position -0.650000  0.150000
+size  0.078700  0.078700
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Rect
+Layer  all
+$EndPAD
+$PAD "2"
+position -0.550000  0.150000
+size  0.086600  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "3"
+position -0.450000  0.150000
+size  0.086600  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "4"
+position -0.350000  0.150000
+size  0.086600  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "5"
+position -0.250000  0.150000
+size  0.086600  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "6"
+position -0.150000  0.150000
+size  0.086600  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "7"
+position -0.050000  0.150000
+size  0.086600  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "8"
+position  0.050000  0.150000
+size  0.086600  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "9"
+position  0.150000  0.150000
+size  0.086600  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "10"
+position  0.250000  0.150000
+size  0.086600  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "11"
+position  0.350000  0.150000
+size  0.086600  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "12"
+position  0.450000  0.150000
+size  0.086600  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "13"
+position  0.550000  0.150000
+size  0.086600  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "14"
+position  0.650000  0.150000
+size  0.086600  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "15"
+position  0.650000 -0.150000
+size  0.086600  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "16"
+position  0.550000 -0.150000
+size  0.086600  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "17"
+position  0.450000 -0.150000
+size  0.086600  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "18"
+position  0.350000 -0.150000
+size  0.086600  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "19"
+position  0.250000 -0.150000
+size  0.086600  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "20"
+position  0.150000 -0.150000
+size  0.086600  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "21"
+position  0.050000 -0.150000
+size  0.086600  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "22"
+position -0.050000 -0.150000
+size  0.086600  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "23"
+position -0.150000 -0.150000
+size  0.086600  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "24"
+position -0.250000 -0.150000
+size  0.086600  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "25"
+position -0.350000 -0.150000
+size  0.086600  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "26"
+position -0.450000 -0.150000
+size  0.086600  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "27"
+position -0.550000 -0.150000
+size  0.086600  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$PAD "28"
+position -0.650000 -0.150000
+size  0.086600  0.086600
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Oval
+Layer  all
+$EndPAD
+$EndMODULE  U1
+
+$MODULE "X1"
+reference "X1"
+value "20MHz"
+footprint "crystal_hc-49u"
+attribut none
+position  6.800000  3.600000
+orientation  0.00
+layer component
+$SHAPE3D
+Na "walter/misc_comp/crystal_hc-49u.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$PAD "1"
+position -0.100000  0.000000
+size  0.078700  0.078700
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$PAD "2"
+position  0.100000  0.000000
+size  0.078700  0.078700
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$EndMODULE  X1
+
+$MODULE "D1"
+reference "D1"
+value "Led"
+footprint "led_3mm_red"
+attribut none
+position  5.425000  3.900000
+orientation  0.00
+layer component
+$SHAPE3D
+Na "walter/indicators/led_3mm_red.wrl"
+Sc 1.000000 1.000000 1.000000
+Of 0.000000 0.000000 0.000000
+Ro 0.000000 0.000000 0.000000
+$EndSHAPE3D
+$PAD "1"
+position  0.000000 -0.050000
+size  0.078700  0.078700
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$PAD "2"
+position  0.000000  0.050000
+size  0.078700  0.078700
+drill  0.031500
+shape_offset  0.000000  0.000000
+orientation  0.00
+Shape  Circ
+Layer  all
+$EndPAD
+$EndMODULE  D1
+
+$LINE 
+start 5.100000 3.125000
+end 5.100000 4.125000
+width 0.015000
+$EndLINE 
+$LINE 
+start 7.550000 3.125000
+end 7.550000 4.125000
+width 0.015000
+$EndLINE 
+$LINE 
+start 5.100000 3.125000
+end 7.550000 3.125000
+width 0.015000
+$EndLINE 
+$LINE 
+start 7.550000 4.125000
+end 5.100000 4.125000
+width 0.015000
+$EndLINE 
+$EndDESCRIPTION
