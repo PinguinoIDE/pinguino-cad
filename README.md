@@ -10,6 +10,6 @@ KiCad is an EDA software suite for the creation of professional schematics and p
 <li>Fabrication outputs generation (Gerber, drill files and whatever can be needed to manufacture a PCB.)
 </ul>
 
-For a more detailed explanation please refer to the official site : http://www.kicad-pcb.org
+For a more detailed explanation please refer to the official site : http://www.kicad.org
 
 For a better result we use libraries, modules en 3D packages from Walter : http://smisioto.no-ip.org/elettronica/kicad/kicad-en.htm
